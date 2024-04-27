@@ -25,3 +25,5 @@ yarn install
 
 ## Production
 
+ Check deployed version "https://album-gallery-r1ep12mz9-mohamedsamiredris-projects.vercel.app/"
+
