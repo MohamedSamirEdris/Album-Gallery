@@ -34,7 +34,7 @@ query getAlbum($id: ID!) {
 </script>
 
 <template>
-    <div>
+    <div >
       <NuxtLink to="/" class="ml-3">Back</NuxtLink>
       <AlbumCard
         :id="data.character.id"

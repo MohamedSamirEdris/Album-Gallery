@@ -32,8 +32,11 @@ const grayScaleWhenDead = computed(() =>
 </script>
 
 <template>
-  <div class="flex m-3 bg-gray-300 rounded-xl">
-    <NuxtLink :to="`/albums/${id}`" class="flex justify-center">
+  <div class="flex flex-wrap m-3 bg-gray-300 rounded-xl">
+    <NuxtLink
+      :to="`/albums/${id}`"
+      class="flex justify-center w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4"
+    >
       <NuxtImg
         :src="image"
         width="400"
